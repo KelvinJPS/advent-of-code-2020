@@ -2,7 +2,6 @@ import sys
 
 
 def password_validator(password_input):
-    # password_input = password_input.replace(" ", "")
     password_input = password_input.strip()
     password_input = password_input.split(":")
     policy = password_input[0]
